@@ -155,6 +155,15 @@ a, a:visited, a:link {
   text-align: right;
   display: inline-block;
 }
+#constructionsection .titletext {
+  font-size: 2.8em;
+  font-weight: 700;
+}
+#constructionsection .subtitletext {
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
 
 /* TEMPORARY
 .imagewrapper {
