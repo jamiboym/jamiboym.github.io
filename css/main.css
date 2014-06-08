@@ -11,6 +11,10 @@ section {
   height: 100vh;
   width: 100%;
 }
+a, a:visited, a:link {
+  text-decoration: none;
+  text-color: inherit;
+}
 .widthlimit {
   width: 80%;
 }
@@ -32,6 +36,7 @@ section {
 /* Vertical Center Positioning */
 .centerwrapper {
   display:table;
+  max-width:100%;
 }
 .centercell {
   display:table-cell;
@@ -92,6 +97,8 @@ section {
 /* Software Section */
 #softwaresection {
   font-family: 'Open Sans';
+  background-color: #6E6568;
+  color: #FFFFFF;
 }
 #softwaresection .surprise {
   max-width: 100%;
@@ -100,5 +107,44 @@ section {
   z-index: 1000;
 }
 #softwaresection .subtitletext .highlighted {
-  color: #6E6568;
+  color: #EAD3A8;
 }
+#softwaresection .subtitletext a .highlighted:hover {
+  color: #D23641;
+}
+#softwaresection .content > * {
+  display:inline-block;
+}
+#softwaresection .imagewrapper {
+  width:33%;
+  height:100vh;
+  margin:0px 2% 0px 0px;
+}
+#softwaresection .contentwrapper {
+  width: 64%;
+}
+/* Hardware Section */
+#hardwaresection {
+  font-family: 'Open Sans';
+  background-color: #EAD3A8;
+  color: #484043;
+}
+#hardwaresection .imagewrapper {
+  width: 30%;
+  height:100vh;
+}
+#hardwaresection .contentwrapper {
+  width: 50%;
+}
+#hardwaresection .contentwrapper > * {
+  float: right;
+  clear: right;
+}
+#hardwaresection .subtitletext .highlighted {
+  color: #D23641;
+}
+
+/* TEMPORARY
+.imagewrapper {
+  background-color: #FFFFFF;
+}*/
