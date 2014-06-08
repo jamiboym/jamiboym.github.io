@@ -1,0 +1,104 @@
+/* Universal Stylings */
+body {
+  margin: 0 0 0 0;
+
+  /* Generic website font */
+  font-family: courier;
+  font-weight: 400;
+  color: #484043;
+}
+section {
+  height: 100vh;
+  width: 100%;
+}
+.widthlimit {
+  width: 80%;
+}
+.centeredblock {
+  margin: 0px auto 0px auto;
+}
+/* Text Manipulation */
+.centeredtext {
+  text-align: center;
+}
+.titletext {
+  font-size: 3.0em;
+  font-weight: 700;
+}
+.subtitletext {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+/* Vertical Center Positioning */
+.centerwrapper {
+  display:table;
+}
+.centercell {
+  display:table-cell;
+  vertical-align:middle;
+}
+
+/* Text Rotation */
+.rotateleft {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.rotateright {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+
+/* Navbar */
+#navbar {
+  font-family: 'Open Sans';
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  display: block;
+  border-bottom: 1px #6E6568 solid;
+  position: fixed;
+}
+#navbar .navwrapper {
+  float:right;
+}
+#navbar .navwrapper div {
+  font-size: 1.0em;
+  margin: 0px 15px 0px 5px;
+  display: inline-block;
+  color: #484043;
+}
+#navbar div:hover {
+  color: #D23641;
+}
+
+/* Main Section */
+#mainsection {
+  font-family: 'Montserrat';
+  color: #FFFFFF;
+  background-color: #484043;
+}
+#mainsection .titlewrapper {
+  text-align: right;
+  display: inline-block;
+}
+
+/* Software Section */
+#softwaresection {
+  font-family: 'Open Sans';
+}
+#softwaresection .surprise {
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  z-index: 1000;
+}
+#softwaresection .subtitletext .highlighted {
+  color: #6E6568;
+}
