@@ -109,9 +109,6 @@ a, a:visited, a:link {
 #softwaresection .subtitletext .highlighted {
   color: #EAD3A8;
 }
-#softwaresection .subtitletext a .highlighted:hover {
-  color: #D23641;
-}
 #softwaresection .content > * {
   display:inline-block;
 }
