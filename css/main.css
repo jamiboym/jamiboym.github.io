@@ -141,12 +141,19 @@ a, a:visited, a:link {
   color: #D23641;
 }
 
+/* Projects Section */
+#projectsection {
+  font-family: 'Montserrat';
+  color: #FFFFFF;
+  background-color: #484043;
+}
+
 /* Progress Section */
 #constructionsection {
   clear: both;
   font-family: 'Montserrat';
   color: #FFFFFF;
-  background-color: #484043;
+  background-color: #6E6568;
 }
 #constructionsection .titlewrapper {
   text-align: right;
@@ -160,7 +167,12 @@ a, a:visited, a:link {
   font-size: 1.3em;
   font-weight: 400;
 }
-
+#constructionsection .highlighted {
+  color: #EAD3A8;
+}
+#constructionsection a .highlighted:hover {
+  color: #D23641;
+}
 
 /* TEMPORARY
 .imagewrapper {
