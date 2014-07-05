@@ -114,6 +114,7 @@ a, a:visited, a:link {
 }
 #softwaresection .imagewrapper {
   background-image:url('../assets/software.png');
+  background-repeat:no-repeat;
   background-position:right;
   width:33%;
   height:100vh;
@@ -130,6 +131,7 @@ a, a:visited, a:link {
 }
 #hardwaresection .imagewrapper {
   background-image:url('../assets/hardware.png');
+  background-repeat:no-repeat;
   width: 55%;
   height:100vh;
 }
