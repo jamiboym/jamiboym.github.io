@@ -114,6 +114,7 @@ a, a:visited, a:link {
 }
 #softwaresection .imagewrapper {
   background-image:url('../assets/software.png');
+  background-position:right;
   width:33%;
   height:100vh;
   margin:0px 2% 0px 0px;
