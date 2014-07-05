@@ -113,6 +113,7 @@ a, a:visited, a:link {
   display:inline-block;
 }
 #softwaresection .imagewrapper {
+  background-image:url('../assets/software.png');
   width:33%;
   height:100vh;
   margin:0px 2% 0px 0px;
@@ -127,11 +128,15 @@ a, a:visited, a:link {
   color: #484043;
 }
 #hardwaresection .imagewrapper {
-  width: 30%;
+  background-image:url('../assets/hardware.png');
+  width: 55%;
   height:100vh;
 }
 #hardwaresection .contentwrapper {
-  width: 50%;
+  width: 45%;
+}
+#hardwaresection .content {
+  float: right;
 }
 #hardwaresection .contentwrapper > * {
   float: right;
