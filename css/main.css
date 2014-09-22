@@ -72,6 +72,7 @@ a, a:visited, a:link {
 }
 #navbar .navwrapper {
   float:right;
+  margin-right: 40px;
 }
 #navbar .navwrapper div {
   font-size: 1.0em;
