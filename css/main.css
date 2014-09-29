@@ -139,14 +139,11 @@ a, a:visited, a:link {
 #hardwaresection .contentwrapper {
   width: 45%;
 }
-#hardwaresection .contentwrapper * {
-  text-align:right;
-}
-
 #hardwaresection .content {
   float: right;
 }
 #hardwaresection .contentwrapper > * {
+  text-align:right;
   float: right;
   clear: right;
 }
