@@ -1,190 +1,152 @@
 /* Universal Stylings */
 body {
-  margin: 0 0 0 0;
+    margin: 0 0 0 0;
 
-  /* Generic website font */
-  font-family: courier;
-  font-weight: 400;
-  color: #484043;
+    /* Generic website font */
+    font-family: courier;
+    font-weight: 400;
+    color: #484043;
 }
 section {
-  height: 100vh;
-  width: 100%;
+    height: 100vh;
+    width: 100%;
 }
 a, a:visited, a:link {
-  text-decoration: none;
-  text-color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
 .widthlimit {
-  width: 80%;
+    width: 80%;
 }
 .centeredblock {
-  margin: 0px auto 0px auto;
+    margin: 0px auto 0px auto;
 }
 /* Text Manipulation */
 .centeredtext {
-  text-align: center;
+    text-align: center;
 }
 .titletext {
-  font-size: 3.0em;
-  font-weight: 700;
+    font-size: 3.0em;
+    font-weight: 700;
 }
 .subtitletext {
-  font-size: 1.5em;
-  font-weight: 400;
+    font-size: 1.5em;
+    font-weight: 400;
 }
 /* Vertical Center Positioning */
 .centerwrapper {
-  display:table;
-  max-width:100%;
+    display:table;
+    max-width:100%;
 }
 .centercell {
-  display:table-cell;
-  vertical-align:middle;
+    display:table-cell;
+    vertical-align:middle;
 }
 
 /* Text Rotation */
 .rotateleft {
-  -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 .rotateright {
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
 }
 
 /* Navbar */
 #navbar {
-  font-family: 'Open Sans';
-  background-color: #FFFFFF;
-  width: 100%;
-  height: 50px;
-  line-height: 50px;
-  display: block;
-  border-bottom: 1px #6E6568 solid;
-  position: fixed;
+    font-family: 'Open Sans';
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    border-bottom: 1px #6E6568 solid;
+    position: fixed;
 }
 #navbar .navwrapper {
-  float:right;
-  margin-right: 40px;
+    float:right;
+    margin-right: 40px;
 }
 #navbar .navwrapper div {
-  font-size: 1.0em;
-  margin: 0px 15px 0px 5px;
-  display: inline-block;
-  color: #484043;
+    font-size: 1.0em;
+    margin: 0px 15px 0px 5px;
+    display: inline-block;
+    color: #484043;
 }
 #navbar div:hover {
-  color: #D23641;
+    color: #D23641;
 }
 
 /* Main Section */
 #mainsection {
-  font-family: 'Montserrat';
-  color: #FFFFFF;
-  background-color: #484043;
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+    background-color: #484043;
 }
 #mainsection .titlewrapper {
-  text-align: right;
-  display: inline-block;
+    text-align: right;
+    display: inline-block;
 }
 
 /* Software Section */
 #softwaresection {
-  font-family: 'Open Sans';
-  background-color: #6E6568;
-  color: #FFFFFF;
+    font-family: 'Open Sans';
+    background-color: #6E6568;
+    color: #FFFFFF;
 }
 #softwaresection .surprise {
-  max-width: 100%;
-  overflow: hidden;
-  white-space: nowrap;
-  z-index: 1000;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    z-index: 1000;
 }
 #softwaresection .subtitletext .highlighted {
-  color: #EAD3A8;
+    color: #EAD3A8;
 }
 #softwaresection .content > * {
-  display:inline-block;
+    display:inline-block;
 }
 #softwaresection .imagewrapper {
-  background-image:url('../assets/software.png');
-  background-repeat:no-repeat;
-  background-position:right;
-  width:33%;
-  height:100vh;
-  margin:0px 2% 0px 0px;
+    background-image:url('../assets/software.png');
+    background-repeat:no-repeat;
+    background-position:right;
+    width:33%;
+    height:100vh;
+    margin:0px 2% 0px 0px;
 }
 #softwaresection .contentwrapper {
-  width: 64%;
+    width: 64%;
 }
 /* Hardware Section */
 #hardwaresection {
-  font-family: 'Open Sans';
-  background-color: #EAD3A8;
-  color: #484043;
+    font-family: 'Open Sans';
+    background-color: #EAD3A8;
+    color: #484043;
 }
 #hardwaresection .imagewrapper {
-  background-image:url('../assets/hardware.png');
-  background-repeat:no-repeat;
-  width: 55%;
-  height:100vh;
+    background-image:url('../assets/hardware.png');
+    background-repeat:no-repeat;
+    width: 55%;
+    height:100vh;
 }
 #hardwaresection .contentwrapper {
-  width: 45%;
+    width: 45%;
 }
 #hardwaresection .content {
-  float: right;
+    float: right;
 }
 #hardwaresection .contentwrapper > * {
-  text-align:right;
-  float: right;
-  clear: right;
+    text-align:right;
+    float: right;
+    clear: right;
 }
 #hardwaresection .subtitletext .highlighted {
-  color: #D23641;
+    color: #D23641;
 }
-
-/* Projects Section */
-#projectsection {
-  font-family: 'Montserrat';
-  color: #FFFFFF;
-  background-color: #484043;
-}
-
-/* Progress Section */
-#constructionsection {
-  clear: both;
-  font-family: 'Montserrat';
-  color: #FFFFFF;
-  background-color: #6E6568;
-}
-#constructionsection .titlewrapper {
-  text-align: right;
-  display: inline-block;
-}
-#constructionsection .titletext {
-  font-size: 2.8em;
-  font-weight: 700;
-}
-#constructionsection .subtitletext {
-  font-size: 1.3em;
-  font-weight: 400;
-}
-#constructionsection .highlighted {
-  color: #EAD3A8;
-}
-#constructionsection a .highlighted:hover {
-  color: #D23641;
-}
-
-/* TEMPORARY
-.imagewrapper {
-  background-color: #FFFFFF;
-}*/
