@@ -1,0 +1,105 @@
+/* Universal Stylings */
+body {
+  margin: 0 0 0 0;
+  min-width: 480px;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+}
+
+a, a:visited, a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.widthlimit {
+  width: 80%;
+}
+
+.centeredblock {
+  margin: 0px auto 0px auto;
+}
+
+/* Text Manipulation */
+.centeredtext {
+  text-align: center;
+}
+.textwrapper {
+  text-align: right;
+  display: inline-block;
+}
+.titletext {
+  font-size: 3.0em;
+  font-weight: 700;
+}
+.subtitletext {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+/* Vertical Center Positioning */
+.centerwrapper {
+  display:table;
+  max-width:100%;
+}
+.centercell {
+  display:table-cell;
+  vertical-align:middle;
+}
+
+/* Animations */
+@-webkit-keyframes blurout {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@-webkit-keyframes blurin {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.blurout {
+  -webkit-animation: blurout 3s;
+}
+
+.blurin {
+  -webkit-animation: blurin 3s;
+}
+
+/* Main Section */
+#main {
+  font-family: 'Montserrat';
+  text-shadow: -1px 0 #777, 0 1px #777, 1px 0 #777, 0 -1px #777;
+  color: #FFF;
+}
+
+/* Background */
+#background * {
+  z-index: -1;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Icons */
+.iconlist {
+  list-style: none;
+  margin-right: 2.5em;
+}
+
+.iconlist > li {
+  display: inline-block;
+  width: 6em;
+}
+
+.iconlist > li > a:hover {
+  color: #777;
+}
+
+.iconlist .icon {
+  font-family: FontAwesome;
+  text-decoration: none;
+  position: relative;
+}
