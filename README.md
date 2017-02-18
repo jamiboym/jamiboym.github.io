@@ -1,2 +1,4 @@
-jamiboy16.github.io
-===================
+# jamiboy16.github.io
+
+[jami's](http://www.jamiboy.com) overly simplistic personal website.
+
