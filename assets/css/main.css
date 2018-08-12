@@ -86,12 +86,12 @@ a, a:visited, a:link {
 /* Icons */
 .iconlist {
   list-style: none;
-  margin-right: 2.5em;
+  margin-top: 0.5em;
 }
 
 .iconlist > li {
   display: inline-block;
-  width: 6em;
+  width: 3em;
 }
 
 .iconlist > li > a:hover {
