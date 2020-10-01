@@ -1,4 +1,4 @@
 # jamiboym.github.io
 
-[jami's](http://www.jamiboy.com) overly simplistic personal website.
+This is [Jami's](http://www.jamiboy.com) simplistic personal website.
 
